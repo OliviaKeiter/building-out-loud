@@ -132,7 +132,7 @@ We're getting into the good stuff.
 
 **previous:** [03. Projects VS Chats](./03-projects-vs-chats.md)
 
-**next:**[05...loading...]
+**next:** 05...loading...
 
 **find me on LinkedIn if the vibes feel right:** [linkedin.com/in/oliviakeiter](https://www.linkedin.com/in/oliviakeiter)
 
