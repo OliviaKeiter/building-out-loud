@@ -130,7 +130,9 @@ We're getting into the good stuff.
 
 ---
 
-previous: __03. projects vs chats__
-next: __05. coming soon__
-find me on LinkedIn if the vibes feel right: __linkedin.com/in/oliviakeiter__
+**previous:** [03. Projects VS Chats](./03-projects-vs-chats.md)
+
+**next:**[05...loading...]
+
+**find me on LinkedIn if the vibes feel right:** [linkedin.com/in/oliviakeiter](https://www.linkedin.com/in/oliviakeiter)
 
