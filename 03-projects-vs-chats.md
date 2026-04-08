@@ -118,7 +118,7 @@ Your Project instructions are not a "set it and forget it" situation. They're a 
 
 - Chats are for quick, contained tasks
 - Projects are for anything with ongoing context, guardrails, or instructions that need to stay consistent
-- Long chats don't lose your instructions, they bury them, but Claude decides what surfaces
+- Long chats don't lose your instructions; they bury them, but Claude decides what surfaces
 - Project instructions load fresh every session and don't compete with your history
 - Set up your instructions in a chat first, ramble everything, let Claude interview you
 - Then do it again in a fresh chat to catch what the first pass missed
@@ -131,6 +131,8 @@ Your Project instructions are not a "set it and forget it" situation. They're a 
 ---
 
 **previous:** [02. Claude doesn't know you](./02-claude-doesnt-know-you.md)
+
+**next:**[03. Projects VS Chats](./03-projects-vs-chats.md)
 
 **find me on LinkedIn if the vibes feel right:** [linkedin.com/in/oliviakeiter](https://www.linkedin.com/in/oliviakeiter)
 
