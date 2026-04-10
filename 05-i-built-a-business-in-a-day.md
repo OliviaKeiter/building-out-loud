@@ -1,7 +1,7 @@
 
 # 05. i built a business in a day (and it was the boring part that made it possible)
 
-2am decision. 9am domain. LLC filed, EIN issued, six agents running, two sites live, all before bathtime.
+2am decision. 9am domain. LLC filed, EIN issued, five agents running, two sites live, all before bathtime.
 
 I've spent the last three entries writing about how I work with Claude. Yesterday I decided to find out what happens when you actually use all of it, all at once.
 
@@ -21,17 +21,23 @@ Here's what exists as of yesterday:
 
 **The service model.** Three tiers defined: Starter for simple presence sites, Standard for service businesses that want to be findable, Custom for anything requiring deeper engineering. A no-upfront payment option designed for clients where the build fee is a barrier, with a 12-month contract that amortizes the cost and drops to standard hosting after the term. A hosting model where we manage the infrastructure and clients pay monthly, so they never have to think about servers. A defined service area covering Bennington, North Adams, Hoosick, Troy, Williamstown, and surrounding rural areas, with Albany and the Capital Region in scope.
 
-**The principles.** Five standing rules that govern every output, every client interaction, and every agent in the system. Not aspirational. Operating constraints. The one that matters most: agents recommend, build, and automate as far as possible. Humans push go. Always. No agent sends, posts, publishes, or communicates on behalf of Keiter & Co. without Olivia or Alex reviewing and approving first. That rule is written into every agent spec. Not assumed. Written.
+**The principles.** Five standing rules that govern every output, every client interaction, and every agent in the system. Not aspirational. Operating constraints. The one that matters most:
 
-**The agent fleet.** Six agents, each with a full spec and a kickoff prompt ready to go in Claude Code:
+> 🚨 Agents recommend, build, and automate as far as possible. Humans push go. Always. No agent sends, posts, publishes, or communicates on behalf of Keiter & Co. without Olivia or Alex reviewing and approving first.
 
-- **Client Intake Agent:** takes loose conversational notes from a real intake meeting and produces a structured build brief. Input is intentionally messy because real conversations with small business owners are messy. Works with what's there, flags every gap.
-- **Post-Demo Proposal Agent:** takes the build brief and demo details and produces two things in sequence: an internal pricing note for us to confirm first, then a plain language client proposal in exactly three sections. What you're getting. What it costs. What happens next. Never upsells. Ever.
-- **Scaffolding Agent:** reads the confirmed brief and produces a recommended site structure, then generates build-ready files once the structure is approved. Opinionated on purpose. If the brief points one direction but the content calls for something different, it says so and explains why.
-- **Copy Drafting Agent:** writes first draft site copy in the client's voice, not in agency voice. Ghostwriting for the client, anchored to the voice notes from intake. Answer Engine Optimization baked in throughout, so the site surfaces when someone asks an AI assistant to recommend a local business.
-- **Monthly Analytics Agent:** pulls site data once a month and produces two outputs: a plain language snapshot email for the client, and a detailed internal report for us. Client output sounds like a neighbor giving an honest update. Internal report is designed to catch problems before clients notice them.
+That rule is written into every agent spec. Not assumed. Written.
 
-Plus a shared agent foundation that every single one of them inherits before any agent-specific logic runs. Eight rules, loaded first, non-negotiable.
+**The agent fleet.** Five agents, each with a full spec and a kickoff prompt ready to go in Claude Code, plus a shared foundation that every one of them inherits before any agent-specific logic runs:
+
+| Agent | What it does | What it produces |
+|---|---|---|
+| Client Intake | Takes loose conversational notes from a real intake meeting | Structured build brief, gaps flagged explicitly |
+| Post-Demo Proposal | Takes the brief and demo details, confirms pricing internally first | Client proposal in exactly three sections: what you're getting, what it costs, what happens next |
+| Scaffolding | Reads the confirmed brief, recommends structure, gets human sign-off | Build-ready files for Claude Code, AEO hooks built in from the start |
+| Copy Drafting | Ghostwrites site copy in the client's voice, not in agency voice | First draft copy for every page, meta titles, schema markup content |
+| Monthly Analytics | Pulls site data once a month | Plain language client snapshot + detailed internal report for us |
+
+> ⚠️ None of these agents send, post, publish, or contact anyone. Every output is a draft. Humans push go. Always.
 
 **The infrastructure.** Namecheap for domain registration. Netlify for hosting via GitHub, with Netlify DNS so SSL is handled automatically. Astro as the build framework. A VM running open source models via Ollama for internal tooling, sized to spin up when needed and deallocate when not, keeping costs manageable while the business scales.
 
@@ -47,11 +53,11 @@ That's the scope. One day.
 
 Before I registered anything or wrote a single line of code, I sat down with Claude and did the thinking.
 
-Not "help me name my business." Not "write me a pricing page." (well..I did that too..) The real thinking. What is this business, actually? What do we believe about how it should run? What will we never do? What happens when an agent drafts something for a client and it sounds wrong? What does the intake conversation look like when the client is a 65-year-old hardware store owner who has never thought about a website in his life?
+Not "help me name my business." Not "write me a pricing page." *(well.. I did that too..)* The real thinking. What is this business, actually? What do we believe about how it should run? What will we never do? What happens when an agent drafts something for a client and it sounds wrong? What does the intake conversation look like when the client is a 65-year-old hardware store owner who has never thought about a website in his life?
 
 The kind of thinking most people skip because it feels like procrastinating when there's actual building to do.
 
-I ran that process twice. *The second pass found things the first one missed. I'm telling you all it's worth it.*
+I ran that process twice. *The second pass found things the first one missed. I'm telling you, it's worth it.*
 
 ---
 
@@ -89,11 +95,9 @@ The kickoff prompt is the translation layer. It takes the spec and turns it into
 
 A vague prompt gets a vague agent. A well-written spec paired with a clean kickoff prompt gets an agent that operates with real constraints from the first message. The quality of what comes out is almost entirely determined by the quality of what goes in.
 
-The full methodology, the CLAUDE.md, the agent foundation, all six specs, and all six kickoff prompts, is public:
-
-🔗 github.com/OliviaKeiter/olivia-keiter-build-methodology
-
-Take it. Adapt it. Build something real with it. Please tell me about it, I want to learn too.
+> ⚠️ The full methodology, the CLAUDE.md, the agent foundation, all five specs, and all five kickoff prompts, is public. Take it. Adapt it. Build something real with it. Please tell me about it, I want to learn too.
+>
+> 🔗 github.com/OliviaKeiter/olivia-keiter-build-methodology
 
 ---
 
@@ -101,11 +105,13 @@ Take it. Adapt it. Build something real with it. Please tell me about it, I want
 
 Every project in our repo has three standard files that update automatically with every single change:
 
-**`SPEC.md`** is the current state of the project. Not what was originally planned. What is actually being built right now, reflecting every decision made along the way.
+| File | What it is |
+|---|---|
+| `SPEC.md` | Current state of the project. Not what was planned. What is actually being built right now. |
+| `TODO.md` | Live task list. Checked and updated after every single change. |
+| `VERSIONS.md` | Detailed version log. Every file created or changed, every decision made, everything removed or replaced. |
 
-**`TODO.md`** is the live task list. Checked and updated after every change. Always reflects exactly where the build stands.
-
-**`VERSIONS.md`** is the detailed version log. Every entry includes the version number, the date, a one-line summary, and detailed notes on every file created or modified, every decision made, and anything removed or replaced.
+Here's what a VERSIONS.md entry looks like in practice:
 
 ```markdown
 ## v0.2 — 2026-04-09
@@ -135,7 +141,7 @@ That's the shift. That's what AI enablement actually means, and most people aren
 
 Entry 01 of this blog is six things I wish I knew when I started. Use Projects. Build a system. Think before you prompt.
 
-Turns out if you actually do those things, you can register a business, stand up a full agent fleet, and ship two production sites before dinner.
+Turns out if you actually do those things, you can register a business, stand up a full agent fleet, and ship two sites before dinner.
 
 The boring part is load-bearing. Build it first.
 
@@ -143,11 +149,11 @@ The boring part is load-bearing. Build it first.
 
 🔗 repo: github.com/OliviaKeiter/building-out-loud
 
-🔗 github.com/OliviaKeiter/olivia-keiter-build-methodology
+🔗 methodology repo (the CLAUDE.md, agent specs, and kickoff prompts that powered this build): github.com/OliviaKeiter/olivia-keiter-build-methodology
 
 ---
 
 previous: __04. claude-actually-can-know-you.md__
-next: __05. you'll find out when I know__
+next: __06. you'll find out when I know__
 find me on LinkedIn if the vibes feel right: __linkedin.com/in/oliviakeiter__
 
