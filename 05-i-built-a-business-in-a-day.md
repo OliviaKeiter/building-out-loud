@@ -47,11 +47,11 @@ That's the scope. One day.
 
 Before I registered anything or wrote a single line of code, I sat down with Claude and did the thinking.
 
-Not "help me name my business." Not "write me a pricing page." The real thinking. What is this business, actually? What do we believe about how it should run? What will we never do? What happens when an agent drafts something for a client and it sounds wrong? What does the intake conversation look like when the client is a 65-year-old hardware store owner who has never thought about a website in his life?
+Not "help me name my business." Not "write me a pricing page." (well..I did that too..) The real thinking. What is this business, actually? What do we believe about how it should run? What will we never do? What happens when an agent drafts something for a client and it sounds wrong? What does the intake conversation look like when the client is a 65-year-old hardware store owner who has never thought about a website in his life?
 
 The kind of thinking most people skip because it feels like procrastinating when there's actual building to do.
 
-I ran that process twice. *The second pass found things the first one missed. I'm telling you it's worth it.*
+I ran that process twice. *The second pass found things the first one missed. I'm telling you all it's worth it.*
 
 ---
 
@@ -93,7 +93,7 @@ The full methodology, the CLAUDE.md, the agent foundation, all six specs, and al
 
 🔗 github.com/OliviaKeiter/olivia-keiter-build-methodology
 
-Take it. Adapt it. Build something real with it.
+Take it. Adapt it. Build something real with it. Please tell me about it, I want to learn too.
 
 ---
 
@@ -123,7 +123,7 @@ Going back through a build without this is genuinely painful. You end up reverse
 
 ## why the front load is the whole game
 
-Here's the thing about doing the thinking first: you only have to do it once.
+Here's the thing about doing the business thinking first: you only have to do it once.
 
 The business architecture, the standing principles, the voice guidelines, the agent constraints, the tracking structure. Done. Lives in the repo. Every build inherits it. Every agent carries it. The humans make the judgment calls, handle the client relationships, review everything before it moves.
 
@@ -135,7 +135,7 @@ That's the shift. That's what AI enablement actually means, and most people aren
 
 Entry 01 of this blog is six things I wish I knew when I started. Use Projects. Build a system. Think before you prompt.
 
-Turns out if you actually do those things, you can register a business, stand up a full agent fleet, and ship two sites before dinner.
+Turns out if you actually do those things, you can register a business, stand up a full agent fleet, and ship two production sites before dinner.
 
 The boring part is load-bearing. Build it first.
 
@@ -143,9 +143,11 @@ The boring part is load-bearing. Build it first.
 
 🔗 repo: github.com/OliviaKeiter/building-out-loud
 
+🔗 github.com/OliviaKeiter/olivia-keiter-build-methodology
+
 ---
 
-previous: __03. projects-vs-chats.md__
-next: __05. coming soon__
+previous: __04. claude-actually-can-know-you.md__
+next: __05. you'll find out when I know__
 find me on LinkedIn if the vibes feel right: __linkedin.com/in/oliviakeiter__
 
