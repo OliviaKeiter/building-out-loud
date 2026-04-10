@@ -1,3 +1,4 @@
+
 # 05. i built a business in a day (and it was the boring part that made it possible)
 
 2am decision. 9am domain. LLC filed, EIN issued, six agents running, two sites live, all before bathtime.
