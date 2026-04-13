@@ -1,0 +1,71 @@
+# stop asking for workarounds
+
+There's a moment that happens when you've been working with AI long enough to hit a real wall.
+
+Not a "wrong prompt" wall. Not a "try again with more context" wall. A wall where the thing you need genuinely just doesn't exist yet, and no amount of clever prompting is going to build it for you.
+
+I hit that wall a few times building [Keiter & Co.](http://keiterandco.com)
+
+I needed a client intake flow that worked the way I think. I needed a dashboard that surfaced what I actually care about. I needed tools that fit the business I was building, not tools I was bending the business around.
+
+And every time I ran into that wall, my first instinct was the same as everyone's first instinct: how do I get Claude to do this anyway?
+
+The shift that changed everything was when I stopped asking that question.
+
+Instead I started asking: what if I just built something that actually solves this?
+
+Not a workaround. Not a patch. A product. Mine. That works the way I want it to work, that I understand end to end, that I can change when my needs change.
+
+So that's what I did.
+
+---
+
+## what 72 hours actually looks like
+
+I want to be specific here, because "I built a business with AI" is the kind of thing that sounds like a headline and means nothing. So here is what it actually means.
+
+In 72 hours, Keiter & Co. went from an idea to a legally standing LLC with a fully locked service model. Three tiers with real names and positioning. A pricing structure with deposits, payment plans, and a grandfather clause that locks every client's rate at buy-in forever. A discount system with nonprofit, bundle, loyalty, and referral options that is generous without being exploitable. Late fee and suspension policies written to protect the business without punishing good clients. A no-upfront payment plan designed for small businesses where cash is the real barrier, with a clean early cancellation structure that is fair to the client and legally sound for us.
+
+All of that is real and documented. Not vibes. Not "we'll figure it out." Policy.
+
+The website is live at keiterandco.com, and it has a feature I am genuinely proud of: the hero image swaps based on the visitor's actual local weather and time of day. Night, fog, snow, storm, rain, clear, it reads the conditions and responds. The photos are AI-composite images of the Petersburg area. It is a bespoke, custom feature on a site for a two-person local business, built in a weekend, because I asked for something that didn't exist and then built it instead of accepting that it couldn't be done.
+
+The client dashboard is live at dashboard.keiterandco.com. Client-facing infrastructure existed before we had a single paying client, because when clients come in, the operation already needs to look like one.
+
+Seven portfolio sites are live across nonprofit, childcare, fiber farming, hair salon, women's boutique, water purification, and home services. Multiple states. The range is intentional. The work adapts to the client. It does not force clients into a template.
+
+Five agents are fully designed and documented: a Client Intake Agent that converts conversational notes into a structured build brief, a Post-Demo Proposal Agent that turns a brief and a demo into a one-page plain language proposal, a Monthly Analytics Agent that produces a client-facing snapshot and a detailed internal report, a Scaffolding Agent that reads the brief and produces site structure plus starter boilerplate, and a Copy Drafting Agent that ghostwrites site copy in the client's actual voice.
+
+Every agent operates under the same five standing principles. Agents recommend, build, and automate as far as possible. Humans push go. Always. Nothing sends, posts, publishes, or communicates on behalf of Keiter & Co. without Olivia or Alex reviewing and approving it first.
+
+The spec-first build methodology is locked and documented. Every build starts with a markdown spec file and a Claude Code kickoff prompt. Always both, never one without the other. CLAUDE.md files travel with every project and carry the principles, voice rules, and technical conventions into every build session. That standard is written down, repeatable, and teachable.
+
+One person running point. Two people total. Two kids. A farm. Day jobs.
+
+*None of it is theoretical. It is all real and running.*
+
+---
+
+## the part that surprised me
+
+The techniques matter. The prompting matters. The methodology matters. But what AI enablement actually unlocks, when you stop asking it to stretch and start asking it to build, is not just speed. It is access. Access to building things you would not have been able to build before.
+
+This morning I came downstairs, looked at my husband, and said: I feel like a part of my brain has been unlocked that I never had access to before. That I didn't even know existed.
+
+That's not hyperbole. That's what this feels like from the inside. 
+
+I'm still learning this. Every day I find a new edge of what's possible and it moves further out. I don't have this figured out. I'm just building out loud and telling you what I'm finding.
+
+And right now what I'm finding is that the ceiling is a whole hell of a lot higher than I thought.
+
+---
+
+🔗 repo: github.com/OliviaKeiter/building-out-loud
+
+---
+
+previous: __05. i built a business in a day__
+next: __coming soon__
+
+find me on LinkedIn if the vibes feel right: __linkedin.com/in/oliviakeiter__
+
